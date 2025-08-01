@@ -18,7 +18,7 @@ It highlights my:
 - My Projects
 - 🏆 Awards & Recognition
 - Fully Responsive
-## Demo
+## Portfolio
 
 https://aulonajvazi.github.io/portfolio/
 
