@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aulon Ajvazi | Web Developer</title>
+    
+    <!-- Preconnect to critical domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://flagcdn.com" crossorigin>
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Preload critical images -->
+    <link rel="preload" href="assets/placeholder.png" as="image">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -26,11 +42,11 @@
 <section id="home" class="hero-section">
     <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
         <div class="profile-container">
-            <img src="assets/placeholder.png" alt="Aulon Ajvazi" class="profile-image">
+            <img src="assets/placeholder.png" alt="Aulon Ajvazi" class="profile-image" width="120" height="120">
         </div>
         <h1>Aulon Ajvazi</h1>
         <div class="location">
-            <img src="https://flagcdn.com/w20/xk.png" alt="Kosovo Flag" class="flag-icon">
+            <img src="https://flagcdn.com/w20/xk.png" alt="Kosovo Flag" class="flag-icon" width="20" height="15">
             <span>Based in Kosovo</span>
         </div>
         
@@ -40,8 +56,8 @@
         </div>
         
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/aulon-ajvazi/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://github.com/AulonAjvazi" target="_blank" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/aulon-ajvazi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/AulonAjvazi" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
             <a href="#" class="resume-link" aria-label="Resume"><i class="fas fa-file-alt" aria-hidden="true"></i></a>
         </div>
     </div>
@@ -61,39 +77,15 @@
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-icon">
-                    <img src="assets/logos/j-coders.jpg" alt="J-coders">
+                    <img src="assets/logos/j-coders.jpg" alt="J-coders" width="40" height="40">
                 </div>
                 <div class="timeline-content">
                     <h3>Teaching Assistant Intern</h3>
                     <h4>j-coders</h4>
                     <p class="timeline-date">July 2025 - Present</p>
-                    <p>Earned internship after leading a 3‑person capstone in the “Build a Startup” program—developed the prototype, presented to trainers, director and CEO, and won “Best Project” plus two certificates.</p>
+                    <p>Earned internship after leading a 3‑person capstone in the "Build a Startup" program—developed the prototype, presented to trainers, director and CEO, and won "Best Project" plus two certificates.</p>
                 </div>
             </div>
-
-            <!-- <div class="timeline-item">
-                <div class="timeline-icon">
-                    <img src="assets/logos/bitcliq.jpg" alt="Bitcliq Logo">
-                </div>
-                <div class="timeline-content">
-                    <h3>Software Developer - Internship</h3>
-                    <h4>Bitcliq</h4>
-                    <p class="timeline-date">Jan 2020 - Mar 2020</p>
-                    <p>Mobile Development (Parque D'Carlos I App - Course Final Project [Grade:20/20]); Web Development; Functional testing some company's apps (Lota Digital, Caldas da Rainha - City Guide).</p>
-                </div>
-            </div>-->
-
-            <!-- <div class="timeline-item">
-                <div class="timeline-icon">
-                    <img src="assets/logos/bitcliq.jpg" alt="Bitcliq Logo">
-                </div>
-                <div class="timeline-content">
-                    <h3>Software Developer - Internship</h3>
-                    <h4>Bitcliq</h4>
-                    <p class="timeline-date">Apr 2019 - Jul 2019</p>
-                    <p>Web Development; Functional testing some company's apps (Lota Digital, Caldas da Rainha - City Guide).</p>
-                </div>
-            </div>-->
         </div>
     </div>
 
@@ -101,8 +93,7 @@
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-icon">
-                    <!-- Replace with university logo -->
-                    <img src="assets/logos/j-coders.jpg" alt="J-coders">
+                    <img src="assets/logos/j-coders.jpg" alt="J-coders" width="40" height="40">
                 </div>
                 <div class="timeline-content">
                     <h3>Computer Programming (Cognia‑Certified)</h3>
@@ -111,19 +102,6 @@
                     <p>jCoders Academy is an extracurricular educational institution founded in Kosovo in 2015, with six learning centers across Kosovo and Albania. Accredited by the Kosovo National Qualifications Authority and the American STEM‑certification agency Cognia, it offers practical, project‑based training in technologies such as web development, game development, and robotics for students aged 8–18</p>
                 </div>
             </div>
-
-
-            <!-- <div class="timeline-item">
-                <div class="timeline-icon">
-                    <img src="assets/logos/university.jpg" alt="University Logo">
-                </div>
-                <div class="timeline-content">
-                    <h3>Bachelor's Degree</h3>
-                    <h4>University Name</h4>
-                    <p class="timeline-date">2016 - 2020</p>
-                    <p>Computer Science</p>
-                </div>
-            </div> -->
         </div>
     </div>
 
@@ -225,7 +203,6 @@
     </div>
 </div>
 </section>
-</section>
 
 
    <!-- Tech Stack Section -->
@@ -260,7 +237,7 @@
     <h3>Backend</h3>
     <div class="tech-row">
         <div class="tech-item">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="mysql-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="mysql-icon" width="22" height="22">
             <span>MySQL</span>
         </div>
     </div>
@@ -276,7 +253,7 @@
                     <span>Figma</span>
                 </div>
                 <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" class="canva-icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" class="canva-icon" width="22" height="22">
                     <span>Canva</span>
                 </div>
             </div>
@@ -349,10 +326,13 @@
                         <span class="tag">JavaScript</span>
                     </div>
                 </div>
-                <a href="https://aulonajvazi.github.io/SkillSwap/" target="_blank" class="discover-btn">Discover <i class="fas fa-arrow-right"></i></a>
+                <a href="https://aulonajvazi.github.io/SkillSwap/" target="_blank" rel="noopener noreferrer" class="discover-btn">Discover <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="project-image">
-                <img src="assets/projects/skillswap_watermark.png" alt="SkillSwap">
+                <picture>
+                    <source srcset="assets/projects/skillswap_watermark.webp" type="image/webp">
+                    <img src="assets/projects/skillswap_watermark.png" alt="SkillSwap" width="600" height="400">
+                </picture>
             </div>
         </div>
 
@@ -376,7 +356,10 @@
                 </div>
             </div>
             <div class="project-image">
-                <img src="assets/projects/portfolio.png" alt="Portfolio Project">
+                <picture>
+                    <source srcset="assets/projects/portfolio.webp" type="image/webp">
+                    <img src="assets/projects/portfolio.png" alt="Portfolio Project" width="600" height="400">
+                </picture>
             </div>
         </div>
     </div>
@@ -398,21 +381,20 @@
                 <p>+383 44 804 317</p>
             </div>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/aulon-ajvazi/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                <a href="https://github.com/AulonAjvazi" target="_blank" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/aulon-ajvazi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/AulonAjvazi" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
                 <a href="#" class="resume-link" aria-label="Resume"><i class="fas fa-file-alt" aria-hidden="true"></i></a>
             </div>
         </div>
+    </div>
 </section>
 
+<footer>
+    <p>© 2025 Aulon Ajvazi. All rights reserved.</p>
+</footer>
 
-
-
-    <footer>
-        <p>© 2025 Aulon Ajvazi. All rights reserved.</p>
-    </footer>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
+<!-- Load scripts with defer attribute -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>
