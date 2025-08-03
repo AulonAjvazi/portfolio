@@ -3,6 +3,7 @@
 Welcome to my portfolio repository! This site is currently under active development as I change it with new features, and performance optimizations.
 
 [![Status](https://img.shields.io/badge/Status-Under%20Construction-yellow)](https://aulonajvazi.github.io/portfolio)
+
 [![Last Update](https://img.shields.io/badge/Last%20Update-August%202025-blue)](https://github.com/AulonAjvazi/portfolio/commits/main)
 
 🚧 Development Status:
