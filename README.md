@@ -1,6 +1,6 @@
 
 # Portfolio Status: Under Active Development
-Welcome to my portfolio repository! This site is currently under active development as I change it with new features, and performance optimizations.
+Welcome to my portfolio! This site is currently under active development as I change it with new features, and performance optimizations.
 
 [![Status](https://img.shields.io/badge/Status-Under%20Construction-yellow)](https://aulonajvazi.github.io/portfolio)
 
