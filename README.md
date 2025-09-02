@@ -4,7 +4,7 @@ Welcome to my portfolio! This site is currently under active development as I ch
 
 [![Status](https://img.shields.io/badge/Status-Under%20Construction-yellow)](https://aulonajvazi.github.io/portfolio)
 
-[![Last Update](https://img.shields.io/badge/Last%20Update-August%202025-blue)](https://github.com/AulonAjvazi/portfolio/commits/main)
+[![Last Update](https://img.shields.io/badge/Last%20Update-September%202025-blue)](https://github.com/AulonAjvazi/portfolio/commits/main)
 
 🚧 Development Status:
 
