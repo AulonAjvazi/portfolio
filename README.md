@@ -18,11 +18,11 @@ I'm working on several improvements to make this portfolio showcase my skills an
 - Tech stack section
 - Project cards with descriptions
 - Achievements
+- Professional headshot image
 
 🔄 In Progress
 - Certificates section and images with descriptions
 - Image compression and WebP conversion
-- Professional headshot image
 
 ## 🌐 Live Preview
 You can view the current state of my portfolio at
