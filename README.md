@@ -18,7 +18,7 @@ I'm working on several improvements to make this portfolio showcase my skills an
 - Tech stack section
 - Project cards with descriptions
 - Achievements
-- Professional headshot image
+- Logo
 
 🔄 In Progress
 - Certificates section and images with descriptions
